@@ -22,9 +22,14 @@
 
 <details>
 <summary>Решение</summary>
-  
-<br>
 
-**Полное доменное имя можно посмотреть в [Табл. 1]()**
-
+### Настройка имени устройства
+#### ISP
+```
+hostnamectl set-hostname isp; exec bash
+```
+#### HQ-SRV
+```
+hostnamectl set-hostname hq-srv.au-team.irpo; exec bash
+```
 </details>
