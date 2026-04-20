@@ -1,8 +1,10 @@
 # Решение демонстрационного экзамена 2026 года по специальности "Сетевое и системное администрирование" 09.02.06
 
 <br>
-<p align="center"><img width="450" src="network_topology.png"></p>
+
+<p align="center"><img src="network_topology.png"></p>
 <p align="center"><strong>Рис. 1. Топология сети</strong></p>
+
 <br>
 
 ## Модуль 1. Настройка сетевой инфраструктуры
@@ -17,9 +19,12 @@
   - Локальная сеть в сторону BR-SRV должна вмещать не более 16 адресов
 
 <br>
+
 <details>
 <summary>Решение</summary>
+  
 <br>
+
 <table align="center">
   <tr>
     <td align="center">Устройство</td>
@@ -67,6 +72,7 @@
 ---
   
 <br>
+
 <table align="center">
   <tr>
     <td align="center">Название сети</td>
@@ -83,5 +89,22 @@
     <td align="center">192.168.200.0/24</td>
     <td align="center">192.168.200.0 - 192.168.200.255</td>
   </tr>
+  <tr>
+    <td align="center">MGMT (VLAN 999)</td>
+    <td align="center">192.168.99.0/29</td>
+    <td align="center">192.168.99.0 - 192.168.99.7</td>
+  </tr>
+  <tr>
+    <td align="center">BR-SRV</td>
+    <td align="center">192.168.0.0/28</td>
+    <td align="center">192.168.0.0 - 192.168.0.15</td>
+  </tr>
 </table>
+<p align="center"><strong>Табл. 2. Подсеть</strong></p>
+
+---
+
+<br>
+
+#### Настройка имени устройств
 </details>
